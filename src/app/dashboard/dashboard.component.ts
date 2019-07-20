@@ -17,20 +17,20 @@ export class DashboardComponent implements OnInit {
   }
 
   columnDefs = [
-    {headerName: 'RankingBasedonTotalFYC', field: 'RankingBasedonTotalFYC' },
-    {headerName: 'UnitCode', field: 'UnitCode' },
-    {headerName: 'AgentCode', field: 'AgentCode'},
-    {headerName: 'AgentName', field: 'AgentName'},
-    {headerName: 'AgencyName', field: 'AgencyName'},
-    {headerName: 'Location', field: 'Location'},
-    {headerName: 'Cluster', field: 'Cluster'},
-    {headerName: 'Rank', field: 'Rank'},
-    {headerName: 'Life', field: 'Life'},
-    {headerName: 'PAVitality', field: 'PAVitality'},
-    {headerName: 'CS', field: 'CS'},
-    {headerName: 'OwnandImmediateFamilyCasesWithCap', field: 'OwnandImmediateFamilyCasesWithCap'},
-    {headerName: 'TotalFYC', field: 'TotalFYC'},
-    {headerName: 'TwentyFourMthPremPersistency', field: 'TwentyFourMthPremPersistency'}
+    {headerName: 'RankingBasedonTotalFYC', field: 'RankingBasedonTotalFYC',resizable: true,sortable: true, filter: true },
+    {headerName: 'UnitCode', field: 'UnitCode',resizable: true,sortable: true, filter: true },
+    {headerName: 'AgentCode', field: 'AgentCode',resizable: true,sortable: true, filter: true},
+    {headerName: 'AgentName', field: 'AgentName',resizable: true,sortable: true, filter: true},
+    {headerName: 'AgencyName', field: 'AgencyName',resizable: true,sortable: true, filter: true},
+    {headerName: 'Location', field: 'Location',resizable: true,sortable: true, filter: true},
+    {headerName: 'Cluster', field: 'Cluster',resizable: true,sortable: true, filter: true},
+    {headerName: 'Rank', field: 'Rank',resizable: true,sortable: true, filter: true},
+    {headerName: 'Life', field: 'Life',resizable: true,sortable: true, filter: true},
+    {headerName: 'PAVitality', field: 'PAVitality',resizable: true,sortable: true, filter: true},
+    {headerName: 'CS', field: 'CS',resizable: true,sortable: true, filter: true},
+    {headerName: 'OwnandImmediateFamilyCasesWithCap', field: 'OwnandImmediateFamilyCasesWithCap',resizable: true,sortable: true, filter: true},
+    {headerName: 'TotalFYC', field: 'TotalFYC',resizable: true,sortable: true, filter: true},
+    {headerName: 'TwentyFourMthPremPersistency', field: 'TwentyFourMthPremPersistency',resizable: true,sortable: true, filter: true}
   ];
 
   rowData = [];
